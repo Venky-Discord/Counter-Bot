@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import json
-from keep_alive import keep_alive
+
 
 client = commands.Bot(command_prefix = "c!")
 
@@ -74,4 +74,4 @@ async def on_message(msg):
   await client.process_commands(msg)
 
 keep_alive()
-client.run("ODM0MzY1MzYyNjc3NjEyNTU0.YH_1TA.rf9lZauOImiYs1YKW8IDtat_LWs")
+client.run("Your Bot Token Here")
